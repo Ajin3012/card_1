@@ -1,0 +1,56 @@
+s*{
+	margin:0;
+	border:0;
+	box-sizing:border-box;
+}
+.border{
+	display:flex;
+}
+.content{
+	border:solid 1px;
+	width:33.33%;
+	padding: 20px 20px;
+	overflow:hidden;
+	margin-left:20px;
+}
+.image{
+	width:100%;
+	height:auto;
+	margin-bottom:20px;
+	border-radius: 10px 15px 0 0;
+}
+.title{
+	margin-left:30px;
+	margin-bottom:20px;
+}
+	
+.title > h3 {
+	font-family:Verdana;
+	font-weight:normal;
+	color:	grey;
+	margin-bottom:20px;
+}
+.title > p {
+	font-weight:bolder;
+	font-family:Verdana;
+	font-size:19px;
+	word-spacing:1px;
+	margin-bottom:30px;
+	
+}
+.title > button{
+	padding:10px 20px;
+	background-color:black;
+	color:white;
+	border-radius:4px;
+}
+a:link {
+  color:white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
